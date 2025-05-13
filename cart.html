@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+<!-- navigation -->
+    <header>
+        
+            <hr id="lineNav">
+        <div class="topnav">
+              <a class="active" href="index.html">about company</a>
+              <a class="active" href="shop.html">shop</a>
+              <a class="active" href="contact.html">contacts</a>
+            
+              <div class="right">
+              <a class="active" href="#account"><img class="account" src="images/user.png" alt="account"></a>
+              <a class="active"  href="cart.html"><img class="account" src="images/yellowCart.png" alt="account"></a>
+              </div>  
+            
+        </div>
+        
+             <hr id="lineNav">
+        
+        </header>
+
+        <div class="cartContainer">
+            <div class="payment_details">
+              <h1>Payment Information</h1>
+              <div class="details_card">
+                <div class="name_address">
+                  <div class="first_lastName">
+                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Last Name" />
+                  </div>
+
+
+                  <div class="address">
+                    <input type="text"  id="put" placeholder="Address" />
+                    <input type="number" placeholder="Post Code" />
+                    <input type="text" placeholder="Country" />
+                  </div>
+                </div>
+
+
+                <h1>Shipping Details</h1>
+                <div class="shipping_card">
+                  
+
+                  <div class="add_savedcard">
+                    <h4>Saved Address</h4>
+                    <p id="output">Lokhandwala Complex, Andheri (west)</p>
+                    <p id="output">400053</p>
+                  </div>
+
+                </div>
+                <div class="proced_payment">
+                  <a href="">Procced to payment</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="order_summary">
+              <h1>Order Summary</h1>
+              <div class="summary_card">
+                <div class="card_item">
+                  <div class="product_img">
+                    <img src="images/egg.png" alt="" />
+                  </div>
+                  <div class="product_info">
+                    <h1>Class A</h1>
+                    <p>Lorem Ipsum is simply dummy text.</p>
+                    <div class="close-btn">
+                      <i class="fa fa-close"></i>
+                    </div>
+                    <div class="product_rate_info">
+                      <h1>£0.26</h1>
+                      <span class="pqt-minus">-</span>
+                      <span class="pqt">1</span>
+                      <span class="pqt-plus">+</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card_item">
+                  <div class="product_img">
+                    <img src="images/egg.png" alt="" />
+                  </div>
+                  <div class="product_info">
+                    <h1>Class B</h1>
+                    <p>Lorem Ipsum is simply dummy text.</p>
+                    <div class="close-btn">
+                      <i class="fa fa-close"></i>
+                    </div>
+                    <div class="product_rate_info">
+                      <h1>£0.23</h1>
+                      <span class="pqt-minus">-</span>
+                      <span class="pqt">1</span>
+                      <span class="pqt-plus">+</span>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="order_price">
+                  <p>Order summary</p>
+                  <h4>£0.49</h4>
+                </div>
+                <div class="order_service">
+                  <p>Additional Service</p>
+                  <h4>£5</h4>
+                </div>
+                <div class="order_total">
+                  <p>Total Amount</p>
+                  <h4>£5.49</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+     
+
+          <footer>
+            <div class="bottomnav">
+                <a class="active" href="index.html">about company</a>
+                <a class="active" href="shop.html">shop</a>
+                <a class="active" href="contact.html">contacts</a>
+    
+          </div>
+            <img id="grass" src="images/grassFooter.png" alt="grass">
+         </footer>
+         
+    
+</body>
+</html>
